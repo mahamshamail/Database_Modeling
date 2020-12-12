@@ -1,1 +1,85 @@
-<mxfile host="app.diagrams.net" modified="2020-12-11T23:59:02.298Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" version="14.0.1" etag="1v62NTrYqzQCWN0F0vxy" type="github"><diagram id="B3tk0Ul_5tF5PHaCZZaO">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-12T01:02:19.382Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="fk0kkpEELyFVXx-PoVT2" version="14.0.1" type="github">
+  <diagram id="B3tk0Ul_5tF5PHaCZZaO" name="Page-1">
+    <mxGraphModel dx="2002" dy="1960" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1knglMO6H4-Rm21CO2gg-2" value="&lt;b&gt;STUDENT&lt;br&gt;&lt;/b&gt;*student_id&lt;br&gt;student_name&lt;br&gt;program_length&lt;br&gt;student_degree_type&lt;br&gt;registration_id" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="140" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="1knglMO6H4-Rm21CO2gg-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=ERmandOne;startFill=0;endArrow=ERmandOne;endFill=0;" edge="1" parent="1" source="1knglMO6H4-Rm21CO2gg-5" target="1knglMO6H4-Rm21CO2gg-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1knglMO6H4-Rm21CO2gg-5" value="&lt;b&gt;INSTRUCTOR&lt;br&gt;&lt;/b&gt;*instructor_id&lt;br&gt;instructor_name&lt;br&gt;area_of_expertise" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="155" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1knglMO6H4-Rm21CO2gg-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=ERmandOne;startFill=0;endArrow=ERmandOne;endFill=0;" edge="1" parent="1" source="1knglMO6H4-Rm21CO2gg-7" target="1knglMO6H4-Rm21CO2gg-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1knglMO6H4-Rm21CO2gg-7" value="&lt;b&gt;&lt;br&gt;CLASS&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;*CRN&lt;br style=&quot;font-size: 12px&quot;&gt;&lt;/font&gt;&lt;span id=&quot;docs-internal-guid-e7ad7113-7fff-e49c-ba22-5c3ec23e797c&quot; style=&quot;font-size: 12px&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;calibri&amp;#34; , sans-serif ; background-color: transparent ; vertical-align: baseline ; font-size: 12px&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;&amp;nbsp;subject_area &lt;br style=&quot;font-size: 12px&quot;&gt;description &lt;br style=&quot;font-size: 12px&quot;&gt;credits&lt;br style=&quot;font-size: 12px&quot;&gt;class_delivery_mode&lt;/font&gt;&lt;span id=&quot;docs-internal-guid-253ebf49-7fff-1c81-654f-d881c3253ac8&quot; style=&quot;font-size: 12px&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;calibri&amp;#34; , sans-serif ; background-color: transparent ; vertical-align: baseline ; font-size: 12px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;span id=&quot;docs-internal-guid-616765d9-7fff-2e44-37c8-e8f302292f5b&quot; style=&quot;font-size: 12px&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;calibri&amp;#34; , sans-serif ; background-color: transparent ; vertical-align: baseline ; font-size: 12px&quot;&gt;&amp;nbsp;start_time&lt;br style=&quot;font-size: 12px&quot;&gt;end_time&lt;br&gt;&lt;/span&gt;&lt;/span&gt;day_of_the_week&lt;br&gt;students_registered&lt;br&gt;instructor_id&lt;br&gt;room_id&lt;br&gt;semester_id&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="110" width="170" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="1knglMO6H4-Rm21CO2gg-8" value="&lt;b&gt;SEMESTER&lt;/b&gt;&lt;br&gt;*semester_id&lt;br&gt;semester_status&lt;br&gt;semester_start_date&lt;br&gt;semester_end_date&lt;br&gt;classes" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="385" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1knglMO6H4-Rm21CO2gg-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=ERmandOne;startFill=0;endArrow=ERmandOne;endFill=0;" edge="1" parent="1" source="1knglMO6H4-Rm21CO2gg-10" target="1knglMO6H4-Rm21CO2gg-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1knglMO6H4-Rm21CO2gg-10" value="&lt;b&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;ROOM&lt;/b&gt;&lt;span id=&quot;docs-internal-guid-e7ad7113-7fff-e49c-ba22-5c3ec23e797c&quot; style=&quot;font-size: 12px&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;calibri&amp;#34; , sans-serif ; background-color: transparent ; vertical-align: baseline ; font-size: 12px&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;span id=&quot;docs-internal-guid-253ebf49-7fff-1c81-654f-d881c3253ac8&quot; style=&quot;font-size: 12px&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;calibri&amp;#34; , sans-serif ; background-color: transparent ; vertical-align: baseline ; font-size: 12px&quot;&gt;*room_number&lt;br style=&quot;font-size: 12px&quot;&gt;&amp;nbsp; max_capacity&lt;br&gt;availability&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="399" y="-60" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1knglMO6H4-Rm21CO2gg-12" value="assigned&lt;br&gt;to" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="700" y="215" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1knglMO6H4-Rm21CO2gg-13" value="taught by" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="160" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1knglMO6H4-Rm21CO2gg-14" value="belongs&amp;nbsp;&lt;br&gt;to" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="330" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1knglMO6H4-Rm21CO2gg-15" value="contains" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="489" y="385" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1knglMO6H4-Rm21CO2gg-16" value="assigned&lt;br&gt;to" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="529" y="80" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1knglMO6H4-Rm21CO2gg-17" value="consists&amp;nbsp;&lt;br&gt;of" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="50" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1knglMO6H4-Rm21CO2gg-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=ERoneToMany;endFill=0;startArrow=ERmandOne;startFill=0;" edge="1" parent="1" source="1knglMO6H4-Rm21CO2gg-19" target="1knglMO6H4-Rm21CO2gg-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1knglMO6H4-Rm21CO2gg-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.012;entryY=0.43;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=ERoneToMany;startFill=0;endArrow=ERmandOne;endFill=0;" edge="1" parent="1" source="1knglMO6H4-Rm21CO2gg-19" target="1knglMO6H4-Rm21CO2gg-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1knglMO6H4-Rm21CO2gg-19" value="&lt;b&gt;REGISTERATION&lt;br&gt;&lt;/b&gt;&lt;span id=&quot;docs-internal-guid-5d12e1bf-7fff-cd29-a742-84b424bf18c7&quot;&gt;&lt;span style=&quot;font-size: 9pt ; font-family: &amp;#34;calibri&amp;#34; , sans-serif ; vertical-align: baseline&quot;&gt;Registration_id&lt;/span&gt;&lt;span style=&quot;font-size: 9pt ; font-family: &amp;#34;calibri&amp;#34; , sans-serif ; vertical-align: baseline&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;font-size: 9pt ; font-family: &amp;#34;calibri&amp;#34; , sans-serif ; vertical-align: baseline&quot;&gt;student_id,&lt;br&gt;&amp;nbsp;class_id&lt;/span&gt;&lt;span style=&quot;font-size: 9pt ; font-family: &amp;#34;calibri&amp;#34; , sans-serif ; vertical-align: baseline&quot;&gt;, erollement_status&lt;/span&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="160" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1knglMO6H4-Rm21CO2gg-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.625;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=ERmandOne;startFill=0;endArrow=ERmandOne;endFill=0;" edge="1" parent="1" source="1knglMO6H4-Rm21CO2gg-21" target="1knglMO6H4-Rm21CO2gg-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1knglMO6H4-Rm21CO2gg-21" value="&lt;span id=&quot;docs-internal-guid-03333b52-7fff-a69d-e4c2-b901bd12c134&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.38 ; margin-top: 0pt ; margin-bottom: 0pt&quot;&gt;&lt;span style=&quot;font-size: 9pt ; font-family: &amp;#34;calibri&amp;#34; , sans-serif ; vertical-align: baseline&quot;&gt;&lt;b&gt;SEMESTER_CLASS_OFFERING&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.38 ; margin-top: 0pt ; margin-bottom: 0pt&quot;&gt;&lt;span style=&quot;font-size: 9pt ; font-family: &amp;#34;calibri&amp;#34; , sans-serif ; vertical-align: baseline&quot;&gt;SCO_id&lt;/span&gt;&lt;span style=&quot;font-size: 9pt ; font-family: &amp;#34;calibri&amp;#34; , sans-serif ; vertical-align: baseline&quot;&gt;,&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.38 ; margin-top: 0pt ; margin-bottom: 0pt&quot;&gt;&lt;span style=&quot;font-size: 9pt ; font-family: &amp;#34;calibri&amp;#34; , sans-serif ; vertical-align: baseline&quot;&gt;semster_id&lt;/span&gt;&lt;span style=&quot;font-size: 9pt ; font-family: &amp;#34;calibri&amp;#34; , sans-serif ; vertical-align: baseline&quot;&gt;,&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.38 ; margin-top: 0pt ; margin-bottom: 0pt&quot;&gt;&lt;span style=&quot;font-size: 9pt ; font-family: &amp;#34;calibri&amp;#34; , sans-serif ; vertical-align: baseline&quot;&gt;class_id&lt;/span&gt;&lt;span style=&quot;font-size: 9pt ; font-family: &amp;#34;calibri&amp;#34; , sans-serif ; vertical-align: baseline&quot;&gt;,&lt;/span&gt;&lt;/p&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.38 ; margin-top: 0pt ; margin-bottom: 0pt&quot;&gt;&lt;span style=&quot;font-size: 9pt ; font-family: &amp;#34;calibri&amp;#34; , sans-serif ; vertical-align: baseline&quot;&gt;&amp;nbsp;offering_status&lt;/span&gt;&lt;/p&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="379" y="415" width="191" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1knglMO6H4-Rm21CO2gg-27" value="makes a" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="140" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1knglMO6H4-Rm21CO2gg-28" value="has" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="210" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1knglMO6H4-Rm21CO2gg-29" value="of a" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="210" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1knglMO6H4-Rm21CO2gg-30" value="has" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="155" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1knglMO6H4-Rm21CO2gg-33" value="belongs&amp;nbsp;&lt;br&gt;to" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="485" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1knglMO6H4-Rm21CO2gg-34" value="contains" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="430" width="40" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
