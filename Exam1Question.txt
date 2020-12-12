@@ -1,0 +1,65 @@
+LAB TEST 1
+TIME : 2 HOURS
+SUBMISSION INSTRUCTIONS:
+1. Here is the submission template for Lab Test https://docs.google.com/document/d/1OS9ktmADuoclDQ4ja1xvj7HFVDPelnMnxt8EJhAeYgs/edit#
+To use this template, click on File > Make Copy,  OR,   File > Download As
+2. Using your own copy of the template, fill in the answers for question 1 and 2.
+3. After you are finished question 1 and 2, submit your document (PDF or Word) to the test dropbox.
+
+
+
+
+
+Question 1 – ERD DIAGRAM
+15 MARKS
+
+Question:
+Using Crow’s Foot notation, draw an ERD diagram for the scenario described below. 
+Your diagram must clearly state the labels and  cardinality for each relationship.
+You are allowed to leave all M:N relationships in the ERD (but ensure that resolve them in your logical design)
+Each entity must have a unique identifier and  have a minimum 3 additional relevant attributes.
+
+Scenario
+ABC college is a newly established community college in Toronto. Presently, their student registration “system” is manual and causes  a plethora of issues throughout the college.   As a result of the many issues, the president of the college  has mandated that a new information system be developed to address many of  the problems in the manual registration “system”.
+You have been hired as a Database Developer to create a Student Registration System for the college.
+Prior to starting this project, a Business Analyst at the college had worked with the president to determine the requirements for the new system.
+Here is a list of what the system must do:
+Identify which students  are registered for which classes.
+Identify which instructor is assigned to which class.
+Identify which classes are offered in a given semester.
+Identify which  students are part time vs  full time.
+Identify which students are undergraduate vs postgraduate.
+Identify which  semester is the current active semester.
+Each class has a unique identification number called a CRN (Class Registration number). 
+Know when each semester starts and ends.
+Know what is the subject area of each class and its associated description and credits.
+Identify if classes are in-person or online.
+Identify the room number  and  max capacity of each class. Room numbers and class capacity limits also apply to both in-person and online classes.
+Other notable points produced in the System Analyst findings 
+Each class is only assigned one Instructor and that said Instructor will be the Instructor for the entire semester.
+Each class is only assigned to one room for the entire semester. 
+All classes will only be offered one day in the week. Classes have a fixed start and end time.
+
+Question 1 Submission Instructions:
+You should use http://www.draw.io to create your diagrams
+When finished, copy and paste your diagram into the submission document
+Include a shared link to your draw.io diagram.
+To properly share the draw.io diagram, click on the SHARE button
+
+In the popup box, choose
+Anyone with the link can edit
+
+
+
+
+
+
+Question 2 – LOGICAL MODEL
+10 MARKS
+
+Using the ERD diagram you created in Question 1, construct a logical model for your diagram.
+Use the following format:
+RELATION (Primary Key, column2, column3, Foreign key)
+
+Submission:
+Put your logical diagram under Question 2 of the submission template.
